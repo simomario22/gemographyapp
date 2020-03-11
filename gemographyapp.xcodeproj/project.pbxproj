@@ -12,6 +12,8 @@
 		EE747BC624169E170006432F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE747BC524169E170006432F /* ViewController.swift */; };
 		EE747BCB24169E1A0006432F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE747BCA24169E1A0006432F /* Assets.xcassets */; };
 		EE747BCE24169E1A0006432F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE747BCC24169E1A0006432F /* LaunchScreen.storyboard */; };
+		EE747BD62416B0BA0006432F /* repositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE747BD52416B0BA0006432F /* repositoryModel.swift */; };
+		EE747BD82418FD540006432F /* repoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE747BD72418FD540006432F /* repoRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EE747BCA24169E1A0006432F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE747BCD24169E1A0006432F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE747BCF24169E1A0006432F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE747BD52416B0BA0006432F /* repositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repositoryModel.swift; sourceTree = "<group>"; };
+		EE747BD72418FD540006432F /* repoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repoRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EE747BC124169E170006432F /* AppDelegate.swift */,
 				EE747BC324169E170006432F /* SceneDelegate.swift */,
 				EE747BC524169E170006432F /* ViewController.swift */,
+				EE747BD52416B0BA0006432F /* repositoryModel.swift */,
+				EE747BD72418FD540006432F /* repoRequest.swift */,
 				EE747BCA24169E1A0006432F /* Assets.xcassets */,
 				EE747BCC24169E1A0006432F /* LaunchScreen.storyboard */,
 				EE747BCF24169E1A0006432F /* Info.plist */,
@@ -134,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE747BD82418FD540006432F /* repoRequest.swift in Sources */,
 				EE747BC624169E170006432F /* ViewController.swift in Sources */,
+				EE747BD62416B0BA0006432F /* repositoryModel.swift in Sources */,
 				EE747BC224169E170006432F /* AppDelegate.swift in Sources */,
 				EE747BC424169E170006432F /* SceneDelegate.swift in Sources */,
 			);
